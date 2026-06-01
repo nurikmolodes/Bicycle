@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faMapMarkerAlt, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function Product({ product, addToCart }) {
   return (
